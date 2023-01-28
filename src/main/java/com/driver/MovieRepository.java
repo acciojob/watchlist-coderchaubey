@@ -83,7 +83,7 @@ public class MovieRepository {
     }
     public String deleteAllDirectors(){
         //iterating over the keySet of pdb database
-        for (String key: pdb.keySet()){
+        for (String key:pdb.keySet()){
             List<String> copy=new ArrayList<>();
             copy=pdb.get(key);
             for(String movie:copy){
